@@ -1,8 +1,8 @@
 /* Font Files */
 
 @font-face {
-  font-family: Bold;
-  src: local("Bold"), url("Bold.ttf");
+  font-family: mainFont;
+  src: local("mainFont"), url("mainFont.ttf");
 }
 
 
@@ -20,7 +20,7 @@ html {
 }
 
 body , html{
-  font-family: Bold, sans-serif;
+  font-family: mainFont, sans-serif;
 }
 
 a{
@@ -78,7 +78,7 @@ input, button{
   text-align: center;
 }
 .div_btn .btn{
-  font-family: Bold, sans-serif;
+  font-family: mainFont, sans-serif;
   font-size: 28px;
   padding: 1px 38px;
   color: #fcfefe;
@@ -145,7 +145,7 @@ input, button{
  clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
   margin: 0px auto 20px 5%;
   padding: 0 20px;
-  font-size: 4.5vw;
+  font-size: 4vw;
 }
 
 
@@ -248,14 +248,14 @@ input, button{
 }
 
 .how_work .top_sec h3{
-  font-size: 7vw;
+  font-size: 6.8vw;
   color: #fff;
 }
 .how_work .top_sec h3 span{
   color: #4BC320;
 }
 .how_work .top_sec p{
-  font-size: 4.3vw;
+  font-size: 4.4vw;
   color: #f6f6f6;
   line-height: 1.4;
 }
