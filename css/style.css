@@ -89,6 +89,13 @@ input, button{
 }
 
 
+@media (min-width:576px){
+  .btn_img{
+    width: 280px;
+  }
+}
+
+
 
 
 /* ================== */
@@ -113,6 +120,41 @@ input, button{
 }
 .hero ul li.orange{
   background: linear-gradient(140deg, #D7B936 0%, #D7B936   40%, #ECA042 60%, #F7934B 100%);
+}
+
+
+/* ==========  Responsive Design  ========== */
+/* ==========  sm ≥ 576px  ========== */
+@media (min-width:576px){
+  .hero ul li {
+    font-size: 28px;
+  }
+}
+
+/* ==========  md ≥ 768px  ========== */
+@media (min-width:768px){
+
+}
+
+/* ==========  lg ≥ 992px  ========== */
+@media (min-width:992px){
+.flex{
+  display: flex;
+}
+.hero{
+  width: 50%;
+}
+
+.hero ul li{
+  font-size: 26px;
+}
+
+
+}
+
+/* ==========  xl ≥ 1200px  ========== */
+@media (min-width:1200px){
+
 }
 
 /* End hero Section */
@@ -170,6 +212,45 @@ input, button{
   font-weight: bold;
 }
 
+
+
+/* ==========  Responsive Design  ========== */
+/* ==========  sm ≥ 576px  ========== */
+@media (min-width:576px){
+  .results .top_sec h3{
+    font-size: 10vw;
+  }
+  .results .top_sec h5{
+    margin-left: 80px;
+  }
+}
+
+/* ==========  md ≥ 768px  ========== */
+@media (min-width:768px){
+
+}
+
+/* ==========  lg ≥ 992px  ========== */
+@media (min-width:992px){
+.results{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.results .top_sec h3{
+  font-size: 50px;
+}
+.results .top_sec h5{
+  font-size: 20px;
+}
+}
+
+/* ==========  xl ≥ 1200px  ========== */
+@media (min-width:1200px){
+
+}
 /* End results Section */
 /* ================== */
 
@@ -226,6 +307,51 @@ input, button{
   line-height: 1.3;
 }
 
+/* ==========  Responsive Design  ========== */
+/* ==========  sm ≥ 576px  ========== */
+@media (min-width:576px){
+.doctor ul li{
+  font-size: 3.2vw;
+}
+.doctor .import p{
+  font-size: 3vw;
+}
+.doctor .import img{
+  width: 12vw;
+}
+.doctor .import{
+  width: max-content;
+  padding: 5px 25px;
+}
+}
+
+/* ==========  lg ≥ 992px  ========== */
+@media (min-width:992px){
+  .flex-reverse{
+    flex-direction: row-reverse;
+  }
+  .doctor{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .doctor ul li{
+    font-size: 18px;
+  }
+  .doctor .import p{
+    font-size: 16px;
+  }
+  .doctor .import img{
+    width: 55px;
+  }
+}
+
+/* ==========  xl ≥ 1200px  ========== */
+@media (min-width:1200px){
+
+}
+
 /* End doctor Section */
 /* ================== */
 
@@ -266,6 +392,51 @@ input, button{
 .how_work .text p{
   color: #fff;
   font-size: 4vw;
+}
+
+
+
+/* ==========  Responsive Design  ========== */
+/* ==========  sm ≥ 576px  ========== */
+@media (min-width:576px){
+.how_work .top_sec h3{
+  font-size: 6vw;
+}
+.how_work .top_sec p{
+  font-size: 4.2vw;
+}
+.how_work .text p{
+  font-size: 3.6vw;
+}
+.how_work .div_img{
+  width: 80%;
+}
+}
+
+
+/* ==========  lg ≥ 992px  ========== */
+@media (min-width:992px){
+  .how_work{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  .how_work .top_sec h3{
+    font-size: 30px;
+  }
+  .how_work .top_sec p{
+    font-size: 24px;
+  }
+  .how_work .text p{
+    font-size: 20px;
+  }
+}
+
+/* ==========  xl ≥ 1200px  ========== */
+@media (min-width:1200px){
+
 }
 
 
@@ -374,6 +545,68 @@ input, button{
 .form_section form input:focus {
   border-color: #68E03E;
 }
+
+
+/* ==========  Responsive Design  ========== */
+/* ==========  sm ≥ 576px  ========== */
+@media (min-width:576px){
+.form_section .delvery_text p{
+  font-size: 6vw;
+}
+.form_section .sm-p{
+  font-size: 2.5vw;
+}
+.form_section .top_form p{
+  font-size: 4.8vw;
+}
+.form_section form .input_div{
+  width: 90%;
+}
+}
+
+
+
+/* ==========  lg ≥ 992px  ========== */
+@media (min-width:992px){
+.form_section{
+  display: flex;
+}
+.form_section .price{
+  width: 50%;
+}
+
+.form_section .container_form{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form_section form{
+  width: 90%;
+}
+.form_section .delvery_text p{
+  font-size: 30px;
+}
+.form_section .sm-p{
+  font-size: 13.5px;
+}
+.form_section .top_form p{
+  font-size: 24px;
+}
+
+}
+
+/* ==========  xl ≥ 1200px  ========== */
+@media (min-width:1200px){
+.form_section form{
+  width: 80%;
+  padding: 25px 20px 30px;
+  width: max-content;
+  min-width: 600px;
+}
+}
+
 /* End form_section Section */
 /* ================== */
 
@@ -418,6 +651,28 @@ input, button{
   color: #ececec;
 }
 
+/* ==========  Responsive Design  ========== */
+/* ==========  sm ≥ 576px  ========== */
+@media (min-width:576px){
+.footer .boxs .box img{
+  height: 28px;
+}
+}
+
+/* ==========  lg ≥ 992px  ========== */
+@media (min-width:992px){
+  .footer .boxs .box{
+    gap: 20px;
+  }
+.footer .boxs .box img{
+  height: 40px;
+}
+.footer .boxs .box p{
+  font-size: 18px;
+}
+
+}
+
 /* End footer Section */
 /* ================== */
 
@@ -445,23 +700,41 @@ body.thanks_page_page {
 }
 
 .thanks_page h3 {
-  font-size: 22px;
-  margin: 0;
+  font-size: 20px;
   color: #fcfefe;
+  background: #49BF1E;
+  width: max-content;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 5px 15px;
 }
 
 .thanks_page p {
-  font-size: 14px;
-  margin-bottom: 10px;
+  font-size: 13px;
   color: #fcfefe;
-}
+   background: linear-gradient(140deg, #4378DA 0%, #4378DA 40%, #5DB7FB 60%, #5EBAFD 100%);
+  width: max-content;
+    margin: 0 auto 20px;
+  border-radius: 0px;
+  padding: 5px 13px;
+  }
 
 .thanks_page .text img {
   width: 70px;
   margin: 0 auto;
 }
 
-@media (min-width: 1000px) {
+/* ==========  Responsive Design  ========== */
+
+
+@media (min-width: 576px) {
+  body.thanks_page_page {
+    background: #0f0f0f;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 992px) {
   .thanks_page p {
     font-size: 18px;
     margin-bottom: 25px;
@@ -477,12 +750,8 @@ body.thanks_page_page {
   }
 }
 
-@media (min-width: 500px) {
-  body.thanks_page_page {
-    background: #0f0f0f;
-    min-height: 100vh;
-  }
-}
+
+
 
 /* End Thanks Page Section */
 /* ================== */
